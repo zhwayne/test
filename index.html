@@ -2,14 +2,22 @@
 <head>
   <meta charset=utf-8>
   <title>iOS JSC test</title>
+  <script>
+    function showAlert(av1) {
+      alert(av1);
+    }
+  </script>
+
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+  </style>
 </head>
 
-<script>
-  document.write("wtf!");
-  function showAlert(av1) {
-    alert(av1);
-  }
-</script>
+
 
 <body>
   <button type="button" onClick='showAlert("test");'>Click Me!</button>
